@@ -4,8 +4,6 @@ import java.util.Arrays;
  interface SortedListInterface {
     SegmentLine[] getArray();
 }
-
-
 public class SortedList implements SortedListInterface {
     private final SegmentLine[] segmentLines;
 
